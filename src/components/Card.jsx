@@ -5,7 +5,7 @@ const Card = ({ data }) => {
   const { name, gender, phone, picture } = data;
   console.log(name);
   return (
-    <div className="flex p-6  gap-10 w-fit  border-gray-500 rounded-lg shadow-lg  hover:shadow-md hover:shadow-[#434343a2] hover:scale-105 transition-all cursor-pointer">
+    <div className="flex p-4  gap-8 w-fit  border-gray-500 rounded-lg shadow-lg  hover:shadow-md hover:shadow-[#434343a2] hover:scale-105 transition-all cursor-pointer">
       <div>
         <img className="rounded-lg" src={picture.large} alt="" />
       </div>
