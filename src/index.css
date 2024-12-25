@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "gilroy";
+    src: url("../gilroy/Gilroy-SemiBold.ttf");
+}
+
+
+body{
+font-family: gilroy;
+}
